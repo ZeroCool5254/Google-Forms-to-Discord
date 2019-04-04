@@ -40,6 +40,7 @@ function onSubmit(e) {
         "method": "post",
         "payload": JSON.stringify({
             "embeds": [{
+                "color" : 3447003, //Use this website as a reference to changing the color of the embed: https://github.com/izy521/discord.io/blob/master/docs/colors.md
                 "title": "TOP TEXT CHANGE THIS IN SCRIPT",
                 "fields": items,
                 "footer": {
